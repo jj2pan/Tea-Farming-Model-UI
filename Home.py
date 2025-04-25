@@ -2,7 +2,8 @@ import streamlit as st
 
 def main():
     st.title("Tea Farming Model 🍵")
-    st.image("img/harvest-per-year.png")
+    st.caption("by James Kimani")
+    st.image("img/harvest-efficiency.png")
 
 if __name__ == "__main__":
     st.set_page_config(
