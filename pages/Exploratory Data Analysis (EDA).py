@@ -34,6 +34,13 @@ def main():
         - The graph shows that farmers with smaller land sizes tend to have a higher harvest efficiency, while those with larger land sizes have lower efficiency.       
     """)
     st.image("img/harvest-efficiency.png")
+    st.divider()
+
+    st.subheader("Conclusion")
+    st.write("""
+        - After carrying out exploratory data analysis, I have come to the conclusion that the harvest quantity is primarily influened by the land size and time of the year (season).
+        - However, these relationships are not linear.
+    """)
 
 if __name__ == "__main__":
     st.set_page_config(
